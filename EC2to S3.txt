@@ -1,0 +1,8 @@
+Create S3 bucket after that create EC2 Instace
+Then go to IAM role in AWS and create a role with S3 full acess to EC machine
+select instance ---> Actions ---> security ---> modify IAM role ---> select created role 
+select instance ---> connect
+
+Then connect with AWS nitro 
+
+aws s3 ls 	sucessfully connected to S3bucket
